@@ -1,0 +1,117 @@
+{
+  "Metadata": {
+    "title": "Esteban Mora | Portfolio",
+    "description": "Esteban Mora's personal portfolio"
+  },
+  "Navbar": {
+    "brand": "Esteban Mora",
+    "links": {
+      "about": "About",
+      "projects": "Projects",
+      "skills": "Skills",
+      "contact": "Contact"
+    },
+    "cta": "Hire me"
+  },
+  "Hero": {
+    "badge": "Available for projects and internships",
+    "title": "Software Engineer.",
+    "description": "Hi, I'm Esteban Mora. A Software Engineering student passionate about building well-crafted systems, from architecture to interface.",
+    "cta_primary": "View projects",
+    "cta_secondary": "Let's talk",
+    "terminal": {
+      "filename": "about.json",
+      "content": "{\n  \"name\": \"Esteban Mora\",\n  \"role\": \"Software Engineer\",\n  \"status\": \"available\",\n  \"stack\": [\"React\", \"Python\", \"Node\"],\n  \"open_to\": \"internships\"\n}"
+    },
+    "stats": {
+      "projects_count": "5+",
+      "projects_label": "Projects",
+      "years_count": "3+",
+      "years_label": "Years",
+      "tech_count": "6+",
+      "tech_label": "Technologies",
+      "download_cv": "Download CV"
+    }
+  },
+  "About": {
+    "eyebrow": "01 — About",
+    "title": "Building with purpose",
+    "paragraphs": {
+      "p1": "I'm Esteban Mora, a Software Engineering student with a deep passion for creating technology solutions that solve real problems. I'm driven by understanding how things work from the ground up so I can build robust and scalable systems.",
+      "p2": "I specialize in software architecture and interface design, combining logical thinking with a sensitivity for user experience. I believe great software is born where engineering meets intentional design.",
+      "p3": "I'm currently seeking my first professional experience where I can contribute value from day one, learn from experienced teams, and continue growing as an engineer. I'm open to internships, freelance projects, and collaborations."
+    },
+    "cta_projects": "View projects",
+    "cta_cv": "Download CV",
+    "info": {
+      "degree_label": "Degree",
+      "degree_value": "Software Engineering",
+      "location_label": "Location",
+      "location_value": "Toronto, Canada",
+      "availability_label": "Availability",
+      "availability_value": "Immediate",
+      "languages_label": "Languages",
+      "languages_value": "Spanish · English"
+    },
+    "stats": {
+      "projects_count": "5+",
+      "projects_label": "Projects",
+      "years_count": "3+",
+      "years_label": "Years",
+      "tech_count": "6+",
+      "tech_label": "Technologies"
+    }
+  },
+  "Contact": {
+    "eyebrow": "04 — Contact",
+    "title": "Let's work together",
+    "description": "Open to internships, freelance projects and collaborations. My inbox is always open.",
+    "cta": "Send message →",
+    "links": {
+      "email_label": "Email",
+      "email_value": "esteban@email.com",
+      "github_label": "GitHub",
+      "github_value": "github.com/estebanmora",
+      "linkedin_label": "LinkedIn",
+      "linkedin_value": "linkedin.com/in/estebanmora",
+      "resume_label": "Resume",
+      "resume_value": "Download PDF ↓"
+    },
+    "footer": "© 2025 — Designed and built from scratch"
+  },
+  "Skills": {
+    "eyebrow": "03 — Skills",
+    "title": "My tech stack",
+    "categories": {
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "devops": "DevOps",
+      "design": "Design"
+    },
+    "levels": {
+      "senior": "Senior",
+      "mid": "Mid",
+      "junior": "Junior"
+    }
+  },
+  "Projects": {
+    "eyebrow": "02 — Projects",
+    "title": "What I've built",
+    "view_link": "View →",
+    "coming_soon": "Coming soon",
+    "items": {
+      "p1": {
+        "name": "Runthe1s",
+        "description": "A mobile app for basketball players and teams."
+      },
+      "p2": {
+        "name": "Project 02",
+        "description": "Coming soon."
+      },
+      "p3": {
+        "name": "Project 03",
+        "description": "Coming soon."
+      }
+    }
+  }
+}

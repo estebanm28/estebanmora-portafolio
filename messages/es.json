@@ -1,0 +1,117 @@
+{
+  "Metadata": {
+    "title": "Esteban Mora | Portfolio",
+    "description": "Portafolio personal de Esteban Mora"
+  },
+  "Navbar": {
+    "brand": "Esteban Mora",
+    "links": {
+      "about": "Sobre mí",
+      "projects": "Proyectos",
+      "skills": "Skills",
+      "contact": "Contacto"
+    },
+    "cta": "Contrátame"
+  },
+  "Hero": {
+    "badge": "Disponible para proyectos y prácticas",
+    "title": "Software Engineer.",
+    "description": "Hola, soy Esteban Mora. Estudiante de Ingeniería de Software apasionado por construir sistemas bien pensados, desde la arquitectura hasta la interfaz.",
+    "cta_primary": "Ver proyectos",
+    "cta_secondary": "Hablemos",
+    "terminal": {
+      "filename": "about.json",
+      "content": "{\n  \"name\": \"Esteban Mora\",\n  \"role\": \"Software Engineer\",\n  \"status\": \"disponible\",\n  \"stack\": [\"React\", \"Python\", \"Node\"],\n  \"open_to\": \"prácticas\"\n}"
+    },
+    "stats": {
+      "projects_count": "5+",
+      "projects_label": "Proyectos",
+      "years_count": "3+",
+      "years_label": "Años",
+      "tech_count": "6+",
+      "tech_label": "Tecnologías",
+      "download_cv": "Descargar CV"
+    }
+  },
+  "About": {
+    "eyebrow": "01 — Sobre mí",
+    "title": "Construyo con propósito",
+    "paragraphs": {
+      "p1": "Soy Esteban Mora, estudiante de Ingeniería de Software con una pasión profunda por crear soluciones tecnológicas que resuelvan problemas reales. Me motiva entender cómo funcionan las cosas desde su base para poder construir sistemas robustos y escalables.",
+      "p2": "Me especializo en arquitectura de software y diseño de interfaces, combinando pensamiento lógico con sensibilidad por la experiencia del usuario. Creo que el buen software nace donde la ingeniería se encuentra con el diseño intencional.",
+      "p3": "Actualmente busco mi primera experiencia profesional donde pueda aportar valor desde el día uno, aprender de equipos experimentados y seguir creciendo como ingeniero. Estoy abierto a prácticas, proyectos freelance y colaboraciones."
+    },
+    "cta_projects": "Ver proyectos",
+    "cta_cv": "Descargar CV",
+    "info": {
+      "degree_label": "Carrera",
+      "degree_value": "Ing. de Software",
+      "location_label": "Ubicación",
+      "location_value": "Toronto, Canada",
+      "availability_label": "Disponibilidad",
+      "availability_value": "Inmediata",
+      "languages_label": "Idiomas",
+      "languages_value": "Español · Inglés"
+    },
+    "stats": {
+      "projects_count": "5+",
+      "projects_label": "Proyectos",
+      "years_count": "3+",
+      "years_label": "Años",
+      "tech_count": "6+",
+      "tech_label": "Tecnologías"
+    }
+  },
+  "Contact": {
+    "eyebrow": "04 — Contacto",
+    "title": "Trabajemos juntos",
+    "description": "Abierto a prácticas, proyectos freelance y colaboraciones. Mi bandeja de entrada siempre está abierta.",
+    "cta": "Enviar mensaje →",
+    "links": {
+      "email_label": "Email",
+      "email_value": "esteban@email.com",
+      "github_label": "GitHub",
+      "github_value": "github.com/estebanmora",
+      "linkedin_label": "LinkedIn",
+      "linkedin_value": "linkedin.com/in/estebanmora",
+      "resume_label": "Currículum",
+      "resume_value": "Descargar PDF ↓"
+    },
+    "footer": "© 2025 — Diseñado y construido desde cero"
+  },
+  "Skills": {
+    "eyebrow": "03 — Skills",
+    "title": "Mi stack técnico",
+    "categories": {
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "devops": "DevOps",
+      "design": "Diseño"
+    },
+    "levels": {
+      "senior": "Senior",
+      "mid": "Mid",
+      "junior": "Junior"
+    }
+  },
+  "Projects": {
+    "eyebrow": "02 — Proyectos",
+    "title": "Lo que he construido",
+    "view_link": "Ver →",
+    "coming_soon": "Próximamente",
+    "items": {
+      "p1": {
+        "name": "Runthe1s",
+        "description": "Una app móvil para jugadores y equipos de basketball."
+      },
+      "p2": {
+        "name": "Proyecto 02",
+        "description": "Próximamente."
+      },
+      "p3": {
+        "name": "Proyecto 03",
+        "description": "Próximamente."
+      }
+    }
+  }
+}
