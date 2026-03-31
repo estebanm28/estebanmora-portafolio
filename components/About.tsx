@@ -42,6 +42,9 @@ export default function About() {
             <p className="text-base text-gray-600 leading-relaxed text-justify">
               {t("paragraphs.p3")}
             </p>
+            <p className="text-base text-gray-600 leading-relaxed text-justify">
+              {t("paragraphs.p4")}
+            </p>
 
             <div className="flex items-center gap-3 pt-4">
               <a

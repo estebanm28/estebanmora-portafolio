@@ -25,7 +25,7 @@ export default function Hero() {
               {t("title")}
             </h1>
 
-            <p className="text-base md:text-lg text-gray-500 leading-relaxed max-w-lg">
+            <p className="text-base md:text-lg text-gray-500 leading-relaxed max-w-lg text-justify">
               {t("description")}
             </p>
 

@@ -14,14 +14,14 @@
     "cta": "Contrátame"
   },
   "Hero": {
-    "badge": "Disponible para proyectos y prácticas",
-    "title": "Software Engineer.",
-    "description": "Hola, soy Esteban Mora. Estudiante de Ingeniería de Software apasionado por construir sistemas bien pensados, desde la arquitectura hasta la interfaz.",
+    "badge": "Disponible para prácticas, soporte técnico y roles junior dev",
+    "title": "Software Engineering Student & Tech Support Professional.",
+    "description": "Hola, soy Esteban Mora. Estudiante de Ingeniería de Software con más de 3 años de experiencia en soporte técnico en SaaS. Apasionado por construir sistemas bien pensados y ayudar a los usuarios a tener éxito — desde la arquitectura hasta la interfaz.",
     "cta_primary": "Ver proyectos",
     "cta_secondary": "Hablemos",
     "terminal": {
       "filename": "about.json",
-      "content": "{\n  \"name\": \"Esteban Mora\",\n  \"role\": \"Software Engineer\",\n  \"status\": \"disponible\",\n  \"stack\": [\"React\", \"Python\", \"Node\"],\n  \"open_to\": \"prácticas\"\n}"
+      "content": "{\n  \"name\": \"Esteban Mora\",\n  \"role\": \"Software Eng. Student\",\n  \"experience\": \"3+ yrs SaaS Support\",\n  \"status\": \"disponible\",\n  \"stack\": [\"React\", \"Python\", \"Node\"],\n  \"open_to\": \"prácticas\"\n}"
     },
     "stats": {
       "projects_count": "5+",
@@ -37,9 +37,10 @@
     "eyebrow": "01 — Sobre mí",
     "title": "Construyo con propósito",
     "paragraphs": {
-      "p1": "Soy Esteban Mora, estudiante de Ingeniería de Software con una pasión profunda por crear soluciones tecnológicas que resuelvan problemas reales. Me motiva entender cómo funcionan las cosas desde su base para poder construir sistemas robustos y escalables.",
-      "p2": "Me especializo en arquitectura de software y diseño de interfaces, combinando pensamiento lógico con sensibilidad por la experiencia del usuario. Creo que el buen software nace donde la ingeniería se encuentra con el diseño intencional.",
-      "p3": "Actualmente busco mi primera experiencia profesional donde pueda aportar valor desde el día uno, aprender de equipos experimentados y seguir creciendo como ingeniero. Estoy abierto a prácticas, proyectos freelance y colaboraciones."
+      "p1": "Soy Esteban Mora, estudiante de Ingeniería de Software y profesional bilingüe radicado en Toronto, Canadá. Junto a mis estudios, he acumulado más de 3 años de experiencia profesional en servicio al cliente en Teleperformance y trabajo administrativo en Legacy Barber Co. — donde también aplico mis habilidades técnicas en creación de contenido y automatización de procesos.",
+      "p2": "En lo técnico, me apasiona construir sistemas bien pensados desde cero — ya sea diseñando una API, creando una interfaz limpia o depurando un problema bajo presión. Creo que el gran software nace donde la ingeniería sólida se encuentra con el diseño intencional.",
+      "p3": "Trabajar en entornos de alto volumen con herramientas como Zendesk, Slack y Excel me enseñó algo que la mayoría de los desarrolladores aprenden mucho después: cómo los usuarios reales interactúan con el software, qué los frustra y qué los hace tener éxito. Esa perspectiva define cómo escribo código.",
+      "p4": "Actualmente estoy abierto a roles híbridos de Technical Support Engineer, Customer Success y Junior Developer en Toronto. Busco un equipo donde pueda aportar valor desde el primer día, crecer junto a personas con experiencia y seguir construyendo cosas que importen."
     },
     "cta_projects": "Ver proyectos",
     "cta_cv": "Descargar CV",

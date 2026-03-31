@@ -14,14 +14,14 @@
     "cta": "Hire me"
   },
   "Hero": {
-    "badge": "Available for projects and internships",
-    "title": "Software Engineer.",
-    "description": "Hi, I'm Esteban Mora. A Software Engineering student passionate about building well-crafted systems, from architecture to interface.",
+    "badge": "Available for internships, tech support & junior dev roles",
+    "title": "Software Engineering Student & Tech Support Professional.",
+    "description": "Hi, I'm Esteban Mora. A Software Engineering student with 3+ years of technical support experience in SaaS. Passionate about building well-crafted systems and helping users succeed — from architecture to interface.",
     "cta_primary": "View projects",
     "cta_secondary": "Let's talk",
     "terminal": {
       "filename": "about.json",
-      "content": "{\n  \"name\": \"Esteban Mora\",\n  \"role\": \"Software Engineer\",\n  \"status\": \"available\",\n  \"stack\": [\"React\", \"Python\", \"Node\"],\n  \"open_to\": \"internships\"\n}"
+      "content": "{\n  \"name\": \"Esteban Mora\",\n  \"role\": \"Software Eng. Student\",\n  \"experience\": \"3+ yrs SaaS Support\",\n  \"status\": \"available\",\n  \"stack\": [\"React\", \"Python\", \"Node\"],\n  \"open_to\": \"internships\"\n}"
     },
     "stats": {
       "projects_count": "5+",
@@ -37,9 +37,10 @@
     "eyebrow": "01 — About",
     "title": "Building with purpose",
     "paragraphs": {
-      "p1": "I'm Esteban Mora, a Software Engineering student with a deep passion for creating technology solutions that solve real problems. I'm driven by understanding how things work from the ground up so I can build robust and scalable systems.",
-      "p2": "I specialize in software architecture and interface design, combining logical thinking with a sensitivity for user experience. I believe great software is born where engineering meets intentional design.",
-      "p3": "I'm currently seeking my first professional experience where I can contribute value from day one, learn from experienced teams, and continue growing as an engineer. I'm open to internships, freelance projects, and collaborations."
+      "p1": "I'm Esteban Mora, a Software Engineering student and bilingual tech professional based in Toronto, Canada. Alongside my studies, I've built 3+ years of professional experience across customer service at Teleperformance and client-facing administrative work at Legacy Barber Co. — where I also apply my technical skills in content creation and process automation.",
+      "p2": "On the technical side, I'm passionate about building well-crafted systems from the ground up — whether that's architecting a backend API, designing a clean interface, or debugging a problem under pressure. I believe great software is born where solid engineering meets intentional design.",
+      "p3": "Working in high-volume customer-facing environments with tools like Zendesk, Slack and Excel taught me something most developers learn much later: how real users interact with software, what frustrates them, and what makes them succeed. That perspective shapes the way I write code.",
+      "p4": "I'm currently open to hybrid Technical Support Engineer, Customer Success, and Junior Developer roles in Toronto. I'm looking for a team where I can contribute from day one, grow alongside experienced people, and keep building things that matter."
     },
     "cta_projects": "View projects",
     "cta_cv": "Download CV",
