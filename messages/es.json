@@ -21,11 +21,11 @@
     "cta_secondary": "Hablemos",
     "terminal": {
       "filename": "about.json",
-      "content": "{\n  \"name\": \"Esteban Mora\",\n  \"role\": \"Software Eng. Student\",\n  \"experience\": \"3+ yrs SaaS Support\",\n  \"status\": \"disponible\",\n  \"stack\": [\"React\", \"Python\", \"Node\"],\n  \"open_to\": \"prácticas\"\n}"
+      "content": "{\n  \"name\": \"Esteban Mora\",\n  \"role\": \"Software Eng. Student\",\n  \"location\": \"Toronto, Canada\",\n  \"stack\": [\"React Native\", \"Python\",\n            \"Next.js\"],\n  \"open_to\": [\"internships\",\n              \"tech support\",\n              \"junior dev\"],\n  \"status\": \"disponible\"\n}"
     },
     "stats": {
-      "projects_count": "5+",
-      "projects_label": "Proyectos",
+      "projects_count": "1",
+      "projects_label": "Proyecto en Vivo",
       "years_count": "3+",
       "years_label": "Años",
       "tech_count": "6+",
@@ -40,13 +40,14 @@
       "p1": "Soy Esteban Mora, estudiante de Ingeniería de Software y profesional bilingüe radicado en Toronto, Canadá. Junto a mis estudios, he acumulado más de 3 años de experiencia profesional en servicio al cliente en Teleperformance y trabajo administrativo en Legacy Barber Co. — donde también aplico mis habilidades técnicas en creación de contenido y automatización de procesos.",
       "p2": "En lo técnico, me apasiona construir sistemas bien pensados desde cero — ya sea diseñando una API, creando una interfaz limpia o depurando un problema bajo presión. Creo que el gran software nace donde la ingeniería sólida se encuentra con el diseño intencional.",
       "p3": "Trabajar en entornos de alto volumen con herramientas como Zendesk, Slack y Excel me enseñó algo que la mayoría de los desarrolladores aprenden mucho después: cómo los usuarios reales interactúan con el software, qué los frustra y qué los hace tener éxito. Esa perspectiva define cómo escribo código.",
-      "p4": "Actualmente estoy abierto a roles híbridos de Technical Support Engineer, Customer Success y Junior Developer en Toronto. Busco un equipo donde pueda aportar valor desde el primer día, crecer junto a personas con experiencia y seguir construyendo cosas que importen."
+      "p4": "Actualmente estoy abierto a roles remotos e híbridos de Technical Support Engineer, Customer Success y Junior Developer en Toronto y más allá. Busco un equipo donde pueda aportar valor desde el primer día, crecer junto a personas con experiencia y seguir construyendo cosas que importen."
     },
     "cta_projects": "Ver proyectos",
     "cta_cv": "Descargar CV",
     "info": {
-      "degree_label": "Carrera",
-      "degree_value": "Ing. de Software",
+      "degree_label": "Educación",
+      "degree_value_1": "B.Eng. Software Engineering (2030)",
+      "degree_value_2": "Diploma Computer Science (2025)",
       "location_label": "Ubicación",
       "location_value": "Toronto, Canada",
       "availability_label": "Disponibilidad",
@@ -55,8 +56,8 @@
       "languages_value": "Español · Inglés"
     },
     "stats": {
-      "projects_count": "5+",
-      "projects_label": "Proyectos",
+      "projects_count": "1",
+      "projects_label": "Proyecto en vivo",
       "years_count": "3+",
       "years_label": "Años",
       "tech_count": "6+",
@@ -65,20 +66,43 @@
   },
   "Contact": {
     "eyebrow": "04 — Contacto",
-    "title": "Trabajemos juntos",
-    "description": "Abierto a prácticas, proyectos freelance y colaboraciones. Mi bandeja de entrada siempre está abierta.",
+    "title_start": "Trabajemos ",
+    "title_highlight": "juntos",
+    "subtitle": "Estoy a un mensaje de distancia. Construyamos algo genial juntos.",
     "cta": "Enviar mensaje →",
+    "pill_github": "GitHub ↗",
+    "pill_linkedin": "LinkedIn ↗",
+    "pill_cv": "Descargar CV ↓",
     "links": {
       "email_label": "Email",
-      "email_value": "esteban@email.com",
+      "email_value": "estebanm2822@gmail.com",
       "github_label": "GitHub",
-      "github_value": "github.com/estebanmora",
+      "github_value": "github.com/estebanm28",
       "linkedin_label": "LinkedIn",
-      "linkedin_value": "linkedin.com/in/estebanmora",
+      "linkedin_value": "linkedin.com/in/johan-esteban-mora",
       "resume_label": "Currículum",
       "resume_value": "Descargar PDF ↓"
     },
-    "footer": "© 2025 — Diseñado y construido desde cero"
+    "footer": "Desarrollado con",
+    "form": {
+      "title": "Enviar un mensaje",
+      "close": "Cerrar",
+      "name_label": "Nombre",
+      "name_placeholder": "Tu nombre",
+      "email_label": "Email",
+      "email_placeholder": "tu@email.com",
+      "subject_label": "Asunto",
+      "subject_placeholder": "Selecciona un asunto",
+      "subject_job": "Oportunidad laboral",
+      "subject_freelance": "Proyecto freelance",
+      "subject_collab": "Colaboración",
+      "subject_other": "Otro",
+      "message_label": "Mensaje",
+      "message_placeholder": "Escribe tu mensaje...",
+      "submit": "Enviar mensaje →",
+      "success": "✓ ¡Mensaje enviado! Te responderé pronto.",
+      "error": "Algo salió mal. Por favor intenta de nuevo."
+    }
   },
   "Skills": {
     "eyebrow": "03 — Skills",
@@ -90,20 +114,25 @@
       "design": "Diseño"
     },
     "levels": {
-      "senior": "Senior",
-      "mid": "Mid",
-      "junior": "Junior"
+      "building": "Construyendo",
+      "learning": "Aprendiendo"
+    },
+    "legend": {
+      "building": "Construyendo — usando en proyectos reales",
+      "learning": "Aprendiendo — conocimiento conceptual, estudiando activamente"
     }
   },
   "Projects": {
     "eyebrow": "02 — Proyectos",
-    "title": "Lo que he construido",
+    "title_start": "Lo que he ",
+    "title_highlight": "construido",
     "view_link": "Ver →",
     "coming_soon": "Próximamente",
     "items": {
       "p1": {
         "name": "Runthe1s",
-        "description": "Una app móvil para jugadores y equipos de basketball."
+        "description": "Una app móvil de comunidad de basketball con rankings ELO, ligas estructuradas, buscador de canchas y perfiles de jugador.",
+        "stat": "93+ jugadores activos"
       },
       "p2": {
         "name": "Proyecto 02",
@@ -113,6 +142,33 @@
         "name": "Proyecto 03",
         "description": "Próximamente."
       }
+    },
+    "modal": {
+      "close": "Cerrar",
+      "badge_live": "Disponible en App Store",
+      "overview_title": "Descripción general",
+      "overview_text": "Runthe1s es una app móvil de comunidad de basketball disponible en la App Store, creada para que jugadores y equipos organicen partidos, registren su rendimiento y compitan en ligas estructuradas. Actualmente activa con más de 93 jugadores.",
+      "role_title": "Mi Rol",
+      "role_text": "Desarrollador — construyendo y publicando funcionalidades activamente en un entorno de equipo colaborativo.",
+      "contribution_title": "Contribución Clave",
+      "contribution_text": "Diseñé e implementé un sistema completo de ligas que permite a los organizadores crear competencias, invitar jugadores, seguir clasificaciones y gestionar diferentes formatos de torneo — llevando estructura a las comunidades de basketball recreativo.",
+      "features_title": "Funcionalidades",
+      "feature_elo_title": "Sistema de Rating ELO",
+      "feature_elo_desc": "Rankings globales y por ciudad que se actualizan después de cada partido",
+      "feature_league_title": "Sistema de Ligas y Competencias",
+      "feature_league_desc": "Crea y gestiona torneos con seguimiento de clasificaciones",
+      "feature_court_title": "Buscador de Canchas",
+      "feature_court_desc": "Descubre canchas cercanas usando tu ubicación",
+      "feature_profile_title": "Perfiles de Jugador",
+      "feature_profile_desc": "Estadísticas, highlights, historial de partidos y rivales",
+      "stack_title": "Stack",
+      "screenshots_title": "Capturas de Pantalla",
+      "screenshot_home": "Inicio",
+      "screenshot_competitions": "Competencias",
+      "screenshot_rankings": "Rankings",
+      "screenshot_courts": "Canchas",
+      "screenshot_games": "Partidos",
+      "screenshot_profile": "Perfil"
     }
   }
 }

@@ -21,11 +21,11 @@
     "cta_secondary": "Let's talk",
     "terminal": {
       "filename": "about.json",
-      "content": "{\n  \"name\": \"Esteban Mora\",\n  \"role\": \"Software Eng. Student\",\n  \"experience\": \"3+ yrs SaaS Support\",\n  \"status\": \"available\",\n  \"stack\": [\"React\", \"Python\", \"Node\"],\n  \"open_to\": \"internships\"\n}"
+      "content": "{\n  \"name\": \"Esteban Mora\",\n  \"role\": \"Software Eng. Student\",\n  \"location\": \"Toronto, Canada\",\n  \"stack\": [\"React Native\", \"Python\",\n            \"Next.js\"],\n  \"open_to\": [\"internships\",\n              \"tech support\",\n              \"junior dev\"],\n  \"status\": \"available\"\n}"
     },
     "stats": {
-      "projects_count": "5+",
-      "projects_label": "Projects",
+      "projects_count": "1",
+      "projects_label": "Live Project",
       "years_count": "3+",
       "years_label": "Years",
       "tech_count": "6+",
@@ -40,13 +40,14 @@
       "p1": "I'm Esteban Mora, a Software Engineering student and bilingual tech professional based in Toronto, Canada. Alongside my studies, I've built 3+ years of professional experience across customer service at Teleperformance and client-facing administrative work at Legacy Barber Co. — where I also apply my technical skills in content creation and process automation.",
       "p2": "On the technical side, I'm passionate about building well-crafted systems from the ground up — whether that's architecting a backend API, designing a clean interface, or debugging a problem under pressure. I believe great software is born where solid engineering meets intentional design.",
       "p3": "Working in high-volume customer-facing environments with tools like Zendesk, Slack and Excel taught me something most developers learn much later: how real users interact with software, what frustrates them, and what makes them succeed. That perspective shapes the way I write code.",
-      "p4": "I'm currently open to hybrid Technical Support Engineer, Customer Success, and Junior Developer roles in Toronto. I'm looking for a team where I can contribute from day one, grow alongside experienced people, and keep building things that matter."
+      "p4": "I'm currently open to Remote and hybrid Technical Support Engineer, Customer Success, and Junior Developer roles in Toronto and beyond. I'm looking for a team where I can contribute from day one, grow alongside experienced people, and keep building things that matter."
     },
     "cta_projects": "View projects",
     "cta_cv": "Download CV",
     "info": {
-      "degree_label": "Degree",
-      "degree_value": "Software Engineering",
+      "degree_label": "Education",
+      "degree_value_1": "B.Eng. Software Engineering (2030)",
+      "degree_value_2": "Diploma Computer Science (2025)",
       "location_label": "Location",
       "location_value": "Toronto, Canada",
       "availability_label": "Availability",
@@ -55,8 +56,8 @@
       "languages_value": "Spanish · English"
     },
     "stats": {
-      "projects_count": "5+",
-      "projects_label": "Projects",
+      "projects_count": "1",
+      "projects_label": "Live Project",
       "years_count": "3+",
       "years_label": "Years",
       "tech_count": "6+",
@@ -65,20 +66,43 @@
   },
   "Contact": {
     "eyebrow": "04 — Contact",
-    "title": "Let's work together",
-    "description": "Open to internships, freelance projects and collaborations. My inbox is always open.",
+    "title_start": "Let's ",
+    "title_highlight": "work together",
+    "subtitle": "I'm one message away. Let's build something great together.",
     "cta": "Send message →",
+    "pill_github": "GitHub ↗",
+    "pill_linkedin": "LinkedIn ↗",
+    "pill_cv": "Download CV ↓",
     "links": {
       "email_label": "Email",
-      "email_value": "esteban@email.com",
+      "email_value": "estebanm2822@gmail.com",
       "github_label": "GitHub",
-      "github_value": "github.com/estebanmora",
+      "github_value": "github.com/estebanm28",
       "linkedin_label": "LinkedIn",
-      "linkedin_value": "linkedin.com/in/estebanmora",
+      "linkedin_value": "linkedin.com/in/johan-esteban-mora",
       "resume_label": "Resume",
       "resume_value": "Download PDF ↓"
     },
-    "footer": "© 2025 — Designed and built from scratch"
+    "footer": "Built with",
+    "form": {
+      "title": "Send a message",
+      "close": "Close",
+      "name_label": "Name",
+      "name_placeholder": "Your name",
+      "email_label": "Email",
+      "email_placeholder": "your@email.com",
+      "subject_label": "Subject",
+      "subject_placeholder": "Select a subject",
+      "subject_job": "Job opportunity",
+      "subject_freelance": "Freelance project",
+      "subject_collab": "Collaboration",
+      "subject_other": "Other",
+      "message_label": "Message",
+      "message_placeholder": "Write your message...",
+      "submit": "Send message →",
+      "success": "✓ Message sent! I'll get back to you soon.",
+      "error": "Something went wrong. Please try again."
+    }
   },
   "Skills": {
     "eyebrow": "03 — Skills",
@@ -90,20 +114,25 @@
       "design": "Design"
     },
     "levels": {
-      "senior": "Senior",
-      "mid": "Mid",
-      "junior": "Junior"
+      "building": "Building",
+      "learning": "Learning"
+    },
+    "legend": {
+      "building": "Building — using in real projects",
+      "learning": "Learning — conceptual knowledge, actively studying"
     }
   },
   "Projects": {
     "eyebrow": "02 — Projects",
-    "title": "What I've built",
+    "title_start": "What I've ",
+    "title_highlight": "built",
     "view_link": "View →",
     "coming_soon": "Coming soon",
     "items": {
       "p1": {
         "name": "Runthe1s",
-        "description": "A mobile app for basketball players and teams."
+        "description": "A mobile basketball community app featuring ELO rankings, structured leagues, court finder and player profiles.",
+        "stat": "93+ active players"
       },
       "p2": {
         "name": "Project 02",
@@ -113,6 +142,33 @@
         "name": "Project 03",
         "description": "Coming soon."
       }
+    },
+    "modal": {
+      "close": "Close",
+      "badge_live": "Live on App Store",
+      "overview_title": "Overview",
+      "overview_text": "Runthe1s is a mobile basketball community app available on the App Store, built for players and teams to organize games, track performance, and compete in structured leagues. Currently active with 93+ players.",
+      "role_title": "My Role",
+      "role_text": "Developer — actively building and shipping features in a collaborative team environment.",
+      "contribution_title": "Key Contribution",
+      "contribution_text": "Designed and implemented a full league system that allows organizers to create competitions, invite players, track standings, and manage different tournament formats — bringing structure to recreational basketball communities.",
+      "features_title": "Features",
+      "feature_elo_title": "ELO Rating System",
+      "feature_elo_desc": "Global and city-based rankings that update after every game",
+      "feature_league_title": "League & Competition System",
+      "feature_league_desc": "Create and manage tournaments with standings tracking",
+      "feature_court_title": "Court Finder",
+      "feature_court_desc": "Discover nearby courts using location",
+      "feature_profile_title": "Player Profiles",
+      "feature_profile_desc": "Stats, highlights, game history and rivals",
+      "stack_title": "Stack",
+      "screenshots_title": "Screenshots",
+      "screenshot_home": "Home",
+      "screenshot_competitions": "Competitions",
+      "screenshot_rankings": "Rankings",
+      "screenshot_courts": "Courts",
+      "screenshot_games": "Games",
+      "screenshot_profile": "Profile"
     }
   }
 }

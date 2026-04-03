@@ -21,6 +21,25 @@ export default function Navbar() {
   }, []);
 
   return (
+    <>
+      <style jsx>{`
+        .nav-link {
+          position: relative;
+        }
+        .nav-link::after {
+          content: "";
+          position: absolute;
+          left: 0;
+          bottom: -2px;
+          width: 0;
+          height: 2px;
+          background-color: #0a0a0a;
+          transition: width 0.2s ease;
+        }
+        .nav-link:hover::after {
+          width: 100%;
+        }
+      `}</style>
     <nav
       className={`fixed top-0 left-0 right-0 z-50 h-14 flex items-center justify-between px-6 md:px-12 border-b transition-all duration-300 ${
         scrolled
@@ -28,8 +47,10 @@ export default function Navbar() {
           : "bg-white border-transparent"
       }`}
     >
-      <a href="#" className="text-lg font-semibold tracking-tight">
-        {t("brand")}<span className="text-[#0066ff]">.</span>
+      <a href="#" className="text-lg tracking-tight flex items-center">
+        <span className="font-bold text-[#0a0a0a]">EstebanMora</span>
+        <span className="font-bold text-[#7c3aed]">.dev</span>
+        <span className="ml-2 text-base">🎮</span>
       </a>
 
       <div className="hidden md:flex items-center gap-8">
@@ -37,18 +58,19 @@ export default function Navbar() {
           <a
             key={href}
             href={href}
-            className="text-sm text-gray-600 hover:text-foreground transition-colors"
+            className="nav-link relative text-sm text-gray-600 transition-colors duration-200 hover:text-[#0a0a0a]"
           >
             {label}
           </a>
         ))}
         <a
           href="#contacto"
-          className="text-sm bg-[#0a0a0a] text-white px-4 py-2 rounded-md hover:bg-[#1a1a1a] transition-colors"
+          className="text-sm bg-[#0a0a0a] text-white px-4 py-2 rounded-md transition-all duration-200 hover:bg-[#7c3aed] hover:-translate-y-0.5 hover:shadow-[0_4px_12px_rgba(124,58,237,0.3)]"
         >
           {t("cta")}
         </a>
       </div>
     </nav>
+    </>
   );
 }
