@@ -1,7 +1,7 @@
 {
   "Metadata": {
-    "title": "Esteban Mora | Portfolio",
-    "description": "Portafolio personal de Esteban Mora"
+    "title": "Esteban Mora | Software Engineer",
+    "description": "Estudiante de Ingeniería de Software en Toronto. Abierto a roles remotos e híbridos."
   },
   "Navbar": {
     "brand": "Esteban Mora",
@@ -68,7 +68,7 @@
     "eyebrow": "04 — Contacto",
     "title_start": "Trabajemos ",
     "title_highlight": "juntos",
-    "subtitle": "Estoy a un mensaje de distancia. Construyamos algo genial juntos.",
+    "subtitle": "Estoy a un mensaje de distancia. ¡Construyamos algo genial juntos!",
     "cta": "Enviar mensaje →",
     "pill_github": "GitHub ↗",
     "pill_linkedin": "LinkedIn ↗",

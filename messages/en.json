@@ -1,7 +1,7 @@
 {
   "Metadata": {
-    "title": "Esteban Mora | Portfolio",
-    "description": "Esteban Mora's personal portfolio"
+    "title": "Esteban Mora | Software Engineer",
+    "description": "Software Engineering student based in Toronto. Open to remote and hybrid roles."
   },
   "Navbar": {
     "brand": "Esteban Mora",
@@ -68,7 +68,7 @@
     "eyebrow": "04 — Contact",
     "title_start": "Let's ",
     "title_highlight": "work together",
-    "subtitle": "I'm one message away. Let's build something great together.",
+    "subtitle": "I'm one message away. Let's build something great together!",
     "cta": "Send message →",
     "pill_github": "GitHub ↗",
     "pill_linkedin": "LinkedIn ↗",
